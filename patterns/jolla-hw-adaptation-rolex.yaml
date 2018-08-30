@@ -14,8 +14,6 @@ Requires:
 - droid-config-rolex-flashing
 - droid-config-rolex-bluez5
 - droid-hal-version-rolex
-# RPM ERROR CORRECTION
-- droid-hal-rolex-detritus
 
 # Hybris packages
 - libhybris-libEGL
@@ -39,7 +37,6 @@ Requires:
 # These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
 - qt5-qtwayland-wayland_egl
 - qt5-qpa-hwcomposer-plugin
-- qt5-qpa-surfaceflinger-plugin
 - qtscenegraph-adaptation
 
 # Add GStreamer v1.0 as standard
@@ -82,7 +79,7 @@ Requires:
 #- jolla-mediaplayer-radio
 
 # For devices with SD Card
-- udisks2
+#- sd-utils
 
 Summary: Jolla HW Adaptation rolex
 
