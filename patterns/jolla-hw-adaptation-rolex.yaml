@@ -14,8 +14,10 @@ Requires:
 - droid-config-rolex-flashing
 - droid-config-rolex-bluez5
 - droid-hal-version-rolex
+- droid-hal-rolex-detritus
 
 # Hybris packages
+- qt5-qpa-surfaceflinger-plugin
 - libhybris-libEGL
 - libhybris-libGLESv2
 - libhybris-libwayland-egl
@@ -80,6 +82,7 @@ Requires:
 
 # For devices with SD Card
 #- sd-utils
+- udisks2
 
 Summary: Jolla HW Adaptation rolex
 
